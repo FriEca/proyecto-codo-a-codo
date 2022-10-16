@@ -1,6 +1,6 @@
 /* Global */
 *{
-    font-family:Verdana, Geneva, Tahoma, sans-serif ;
+    font-family:sans-serif, Geneva, Tahoma, sans-serif ;
     margin: 0;
     padding:0,
 }
@@ -9,9 +9,10 @@
 }
 /* header */
 header{
-    background-color: black;
+    background-color: #E0FFFF;
     width: 100%;
     height: 4vw;
+    box-shadow: inset 0px 0px 5px 0px #20B2AA;
 }
 .tituloheader{
   text-align: center;
@@ -225,8 +226,9 @@ img:nth-child(4) {
 .textohiperlink{
   position: center;
   position: absolute;
-  top: 17px;
-  left:50px;
+  top: 1vw;
+  left: 3.5vw;
+  font-size: 1vw;
 }
 
 .containerhiperlink{
@@ -237,10 +239,13 @@ img:nth-child(4) {
 .containerimageneshiperlink{
   display: flex;
   justify-content: space-around;
-  width: 80%;
+  width: 90%;
   margin-left: 10%;
+  margin-right:10%;
+  height: 20vw;
 }
 
 .imagenhiperlink{
-  width: 30vw;
+  width: 90%;
+  height: 20vw;
 }
