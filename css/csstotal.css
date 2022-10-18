@@ -9,29 +9,35 @@
 }
 /* header */
 header{
-    background-color: #E0FFFF;
+    background-color: #f7bfb6;
     width: 100%;
-    height: 4vw;
-    box-shadow: inset 0px 0px 5px 0px #20B2AA;
+    height: 10vw;
+    text-align: center;
 }
 .tituloheader{
   text-align: center;
 }
+.logo{
+  width: 10vw;
+  height: 10vw;
+}
 /* Nav */
+
 nav{
-  width:100%;
-  text-align: right;
-  display: flex;
-  justify-content: flex-end;
+  background-color: #00566c
 }
 .titulonav{
   color: brown;
-  background-color: beige;
   text-decoration: none;
   padding: 1vw;
   border-radius: 1vw;
   margin:0.3%;
   font-size: 1vw;
+}
+
+.containernav{
+  display: flex;
+  justify-content: space-evenly;
 }
 /* Footer */
 footer{
