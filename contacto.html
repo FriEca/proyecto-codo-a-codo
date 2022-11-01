@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="..\css\csstotal.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" media="(max-width: 1366px)" href="..\css\cssqueriestablet.css">
+    <link rel="stylesheet" media="(max-width: 600px)" href="..\css\cssqueriescelular.css">
+    <script src="..\scripts\jsform.js"></script>
+    <script src="..\scripts\gmap.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBRFRyy5NMvU16ICLDPUvjPafdUybHEpZE&callback=myMap"></script>
+    <title>Nombredelatienda</title>
+</head>
+<body>
+  <header>
+    <img class="logo" src="..\imagenes\logo.png"/>
+</header>
+<nav>
+    <div class="containernav">
+    <a class="titulonav" href="..\paginas\index.html" >Inicio</a>
+    <a class="titulonav" href="..\paginas\productos.html" >Productos</a>
+    <a class="titulonav" href="..\paginas\capacitaciones.html" >Capacitaciones</a>
+    <a class="titulonav" href="..\paginas\contacto.html" >Contacto</a>
+    </div>
+</nav>
+      <br><h2 class="tituloheader">Hacé tu pedido o contanos tu consulta</h2> <br>
+      <div class="containerformulario">
+        <p>Los campos marcados con * son obligatorios</p> <br>
+        <form name="myForm" onsubmit="return validateForm()" method="post">
+        <label>*Nombre:</label> <input type="text" name="fname">  
+        <label>*Apellido:</label> <input type="text" name="lname">
+        <label>*Número de documento: <input type="text" placeholder="Ingresar sólo números" name="adress"></label> <br> <br>
+        <label>Localidad:</label>
+        <select>
+            <option value="">- Seleccione una provincia -</option>
+                <option value="Buenos Aires">BUENOS AIRES</option>
+                <option value="Catamarca">CATAMARCA</option>
+                <option value="Chaco">CHACO</option>
+                <option value="Chubut">CHUBUT</option>
+                <option value="Ciudad Autónoma de Buenos Aires">CIUDAD AUTÓNOMA DE BUENOS AIRES</option>
+                <option value="Córdoba">CÓRDOBA</option>
+                <option value="Corrientes">CORRIENTES</option>
+                <option value="Entre Ríos">ENTRE RÍOS</option>
+                <option value="Formosa">FORMOSA</option>
+                <option value="Jujuy">JUJUY</option>
+                <option value="La Pampa">LA PAMPA</option>
+                <option value="La Rioja">LA RIOJA</option>
+                <option value="Mendoza">MENDOZA</option>
+                <option value="Misiones">MISIONES</option>
+                <option value="Neuquén">NEUQUÉN</option>
+                <option value="Río Negro">RÍO NEGRO</option>
+                <option value="Salta">SALTA</option>
+                <option value="San Juan">SAN JUAN</option>
+                <option value="San Luis">SAN LUIS</option>
+                <option value="Santa Cruz">SANTA CRUZ</option>
+                <option value="Santa Fe">SANTA FE</option>
+                <option value="Santiago del Estero">SANTIAGO DEL ESTERO</option>
+                <option value="Tierra del Fuego, Antártida e Islas del Atlántico Sur">TIERRA DEL FUEGO</option>
+                <option value="Tucumán">TUCUMÁN</option>
+        </select>
+        <label>*Codigo postal:</label> <input type="text" name="CP"> <br><br>
+        <label>*Calle:</label> <input type="text" name="direcc">
+        <label>Número:</label> <input type="text" name="number">
+        <label>Piso:</label> <input type="text">
+        <label>Departamento:</label>  <input type="text"> <br> <br>
+        <label>*Teléfono:</label> <input type="text" name="cell">
+        <label>*Email:</label> <input type="text" name="email"> <br> <br>
+        <label>Tenes algun pedido personalizado o comentario? Realizalo acá</label><textarea rows="5" cols="20"></textarea>
+        <br>
+        <input type="reset">
+        <input type="submit" value="Enviar">
+        </form>
+      </div>
+      <br><br><br><br>
+      <h2 class="tituloheader">O pasá por alguno de nuestros locales</h2>
+      <div class="containermaps">
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3283.0497771468913!2d-58.46208838418181!3d-34.62818236630108!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcca265224bca3%3A0x4868d2e4ff9c1822!2sRivadavia%206700%2C%20C1424%20CABA!5e0!3m2!1ses-419!2sar!4v1664475441482!5m2!1ses-419!2sar"
+          width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Ubicación Local Flores</iframe>  
+          <p>Sucursal Flores</p>
+        </div>
+
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4645.440444523083!2d-58.45294141440011!3d-34.58335911023296!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5e605be3377%3A0x95dedc7581ce95c0!2sLacroze!5e0!3m2!1ses-419!2sar!4v1664475473761!5m2!1ses-419!2sar"
+          width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Ubicación Local Chacarita</iframe>
+          <p>Sucursal Chacarita</p>
+        </div>
+
+        <div class="mapa">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.7506256001425!2d-58.45144248418345!3d-34.55986886268761!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5cd67ddae53%3A0x2066eb8912db8786!2sPlaza%20Barrancas%20de%20Belgrano!5e0!3m2!1ses-419!2sar!4v1664475509792!5m2!1ses-419!2sar"
+          width="300" height="300" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade">Ubicación Local Belgrano</iframe>
+          <p>Sucursal Belgrano</p>
+        </div>
+      </div>
+      <footer>
+        <p class="textofooter">Nuestras redes sociales</p>
+        <a href="https://www.facebook.com/" class="fa fa-facebook" target="_blank"></a>
+        <a href="https://twitter.com/" class="fa fa-twitter" target="_blank"></a>
+        <a href="https://www.instagram.com/" class="fa fa-instagram" target="_blank"></a>
+        <a href="https://web.whatsapp.com/" class="fa fa-whatsapp" target="_blank"></a>
+        <p class="textofooter">Todos los derechos reservados ©</p>
+        <p class="textofooter">maildecontacto@blabla</p>
+    </footer>
+</body>
+</html>
