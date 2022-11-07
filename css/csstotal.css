@@ -103,7 +103,7 @@ input[type=text], select, textarea {
 }
 
 input[type=submit] {
-  background-color: #04AA6D;
+  background-color: #B695C0;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -111,7 +111,7 @@ input[type=submit] {
   cursor: pointer;
 }
 input[type=reset] {
-  background-color: #04AA6D;
+  background-color: #B695C0;
   color: white;
   padding: 12px 20px;
   border: none;
@@ -121,8 +121,12 @@ input[type=reset] {
 
 /* When moving the mouse over the submit button, add a darker green color */
 input[type=submit]:hover {
-  background-color: #45a049;
+  background-color: #d4badc;
 }
+input[type=reset]:hover {
+  background-color: #d4badc;
+}
+
 
 /* Add a background color and some padding around the form */
 .containerformulario {
@@ -156,10 +160,10 @@ input[type=submit]:hover {
 
 .containerimagenproducto{
   border: 0.5vw solid;
-  border-top-color: #856036;
-  border-left-color: #5d4426;
-  border-bottom-color: #856036;
-  border-right-color: #5d4426;
+  border-top-color: #B695C0;
+  border-left-color: #B695C0;
+  border-bottom-color: #B695C0;
+  border-right-color: #B695C0;
   width: 20%;
   text-align: center;
   margin: auto;
@@ -232,11 +236,11 @@ img:nth-child(4) {
 }
 
 .textohiperlink{
-  position: center;
   position: absolute;
-  top: 1vw;
-  left: 3.5vw;
-  font-size: 1vw;
+  top: 0.3vw;
+  left: 9vw;
+  font-size: 2vw;
+  color: #70001f;
 }
 
 .containerhiperlink{
@@ -256,4 +260,24 @@ img:nth-child(4) {
 .imagenhiperlink{
   width: 90%;
   height: 20vw;
+}
+
+.textohome{
+  text-align: center;
+  font-size: 1.5vw;
+}
+
+.textocapacitacion{
+  text-align: center;
+  font-size: 1vw;
+}
+
+.videocapacitacion{
+  width: 35vw;
+  height: 20vw;
+}
+
+.textovideocapacitacion{
+  font-weight: bold;
+  font-size: 1.5vw
 }
